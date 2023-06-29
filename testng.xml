@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="username" value="nitish123"></parameter>
+  <parameter name="password" value="V54198"></parameter>
+  <parameter name="location" value="Sydney"></parameter>
+  <parameter name="hotels" value="Hotel Hervey"></parameter>
+  <parameter name="room_type" value="Deluxe"></parameter>
+  <parameter name="room_nos" value="3 - Three"></parameter>
+  <parameter name="adult_room" value="2 - Two"></parameter>
+  <parameter name="child_room" value="1 - One"></parameter>
+  <parameter name="first_name" value="Suriya"></parameter>
+  <parameter name="last_name" value="Narayanan"></parameter>
+  <parameter name="address" value="121/64,Ponnagaram,Rajapalayam"></parameter>
+  <parameter name="cc_num" value="1234567890123450"></parameter>
+  <parameter name="cc_type" value="American Express"></parameter>
+  <parameter name="cc_exp_month" value="January"></parameter>
+  <parameter name="cc_exp_year" value="2012"></parameter>
+  <parameter name="cc_cvv" value="201"></parameter>
+ 
+
+<classes>
+<class name="tset.TestNgPractise1"></class>
+
+</classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

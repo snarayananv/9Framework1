@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="address" value="121/64,Ponnagaram,Rajapalayam"/>
+    <parameter name="cc_exp_month" value="January"/>
+    <parameter name="cc_num" value="1234567890123450"/>
+    <parameter name="last_name" value="Narayanan"/>
+    <parameter name="cc_cvv" value="201"/>
+    <parameter name="cc_exp_year" value="2012"/>
+    <parameter name="cc_type" value="American Express"/>
+    <parameter name="password" value="V54198"/>
+    <parameter name="hotels" value="Hotel Hervey"/>
+    <parameter name="location" value="Sydney"/>
+    <parameter name="child_room" value="1 - One"/>
+    <parameter name="adult_room" value="2 - Two"/>
+    <parameter name="first_name" value="Suriya"/>
+    <parameter name="room_nos" value="3 - Three"/>
+    <parameter name="username" value="nitish123"/>
+    <parameter name="room_type" value="Deluxe"/>
+    <classes>
+      <class name="tset.TestNgPractise1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="adactinBookingConfirmation"/>
+        </methods>
+      </class> <!-- tset.TestNgPractise1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
